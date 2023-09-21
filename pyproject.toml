@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "random-recipe-bot"
+version = "0.1.0"
+description = ""
+authors = ["Aleksandr_Rybin <aleksandr.rybin@glowbyteconsulting.com>"]
+readme = "README.md"
+packages = [{include = "random_recipe_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sqlalchemy = "^2.0.21"
+telebot = "^0.0.5"
+alembic = "^1.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
